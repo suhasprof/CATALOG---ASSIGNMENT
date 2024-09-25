@@ -1,16 +1,16 @@
 ## CATALO-ASSIGNMENT
 ###SOLUTION
 #### FORMULA  UTILIZED -> Lagrange Interpolation.
+
+## APPROACH (LANG : CPP)
+#######1)Input Parsing (JSON Format):
+The input data (roots and their corresponding y-values) is provided in a JSON format.
+is given with a y-value in a specific base (e.g., base 10, base 16, base 2, etc.). The program first decodes these y-values into their corresponding decimal representations.
+
+#######2)Decoding Base Values:
+The program decodes the y-values based on their provided base by using stoi() or stol() functions with the base information. This transforms the encoded strings into integers that can be used for interpolation.
+###### 3) Lagrange interpolation, computation and obatining constant.
 ##### Key takeawyas 
-Lagrange Interpolation:
-Lagrange interpolation is a powerful method for reconstructing polynomials based on known points. It doesn’t require solving linear systems, making it a direct approach for small datasets.
-
-Decoded Roots and Polynomial Solutions:
-In this problem, the roots of the polynomial are encoded in various number systems (binary, hexadecimal, etc.). Decoding these values was a crucial step before applying any polynomial solving technique.
-
-Practical Problem Solving:
-You’ve explored how real-world data, often encoded in different formats or systems, can be decoded and used to construct meaningful solutions such as polynomials. This is directly applicable in areas like cryptography, where secrets can be hidden in multiple layers of encoding.
-
-Algebra and Numerical Methods:
-The problem highlights the importance of algebraic techniques and numerical methods (like Gaussian elimination, Lagrange interpolation) for solving real-world problems where exact solutions are required.
+Lagrange Interpolation.
+Decoded Roots and Polynomial Solutions/
 
